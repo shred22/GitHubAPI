@@ -1,4 +1,4 @@
 provider "github" {
-  token = "ec064b3231a05fa5686b62e759879396b0fe7c1c"
-  owner = "clanofcoders"
+  token = "a345bdc3cb8e503017ea9502515aee48ccf1ea10"
+  owner = "shred22"
 }

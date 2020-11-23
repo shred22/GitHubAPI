@@ -1,3 +1,7 @@
+========================Add Private visibility to existing Repo =============
+
+curl -H 'Authorization: Token a345bdc3cb8e503017ea9502515aee48ccf1ea10' -H 'Accept: application/vnd.github.luke-cage-preview+json' -X PATCH 'https://api.github.com/repos/shred22/otp-microservice' -d '{"visibility": "private"}'
+
 ======================== Repo Creation =============================
 
 

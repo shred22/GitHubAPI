@@ -1,0 +1,43 @@
+[0m[1mRefreshing Terraform state in-memory prior to plan...[0m
+The refreshed state will be used to calculate this plan, but will not be
+persisted to local or remote state storage.
+[0m
+
+------------------------------------------------------------------------
+
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  [32m+[0m create
+[0m
+Terraform will perform the following actions:
+
+[1m  # github_repository.otp-microservice[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "github_repository" "otp-microservice" {
+      [32m+[0m [0m[1m[0mallow_merge_commit[0m[0m     = true
+      [32m+[0m [0m[1m[0mallow_rebase_merge[0m[0m     = true
+      [32m+[0m [0m[1m[0mallow_squash_merge[0m[0m     = true
+      [32m+[0m [0m[1m[0marchived[0m[0m               = false
+      [32m+[0m [0m[1m[0mdefault_branch[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mdelete_branch_on_merge[0m[0m = false
+      [32m+[0m [0m[1m[0metag[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mfull_name[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mgit_clone_url[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0mhtml_url[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mhttp_clone_url[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mname[0m[0m                   = "otp-microservice"
+      [32m+[0m [0m[1m[0mnode_id[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mprivate[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mssh_clone_url[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0msvn_url[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mvisibility[0m[0m             = "private"
+    }
+
+[0m[1mPlan:[0m 1 to add, 0 to change, 0 to destroy.[0m
+
+------------------------------------------------------------------------
+
+Note: You didn't specify an "-out" parameter to save this plan, so Terraform
+can't guarantee that exactly these actions will be performed if
+"terraform apply" is subsequently run.
+
